@@ -1,0 +1,100 @@
+/* General styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  margin-bottom: 20px; /* Adds some space below the navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(to right, #4CAF50, #2e8b57); /* Gradient background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  border-radius: 5px; /* Rounded button effect */
+}
+
+.navbar ul li a:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge the link on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+  background: linear-gradient(to right, #4CAF50, #2e8b57);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Shadow at the top of the footer */
+}
+
+footer .footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer .footer-content p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+footer .footer-bottom {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ddd;
+}
+
+footer .footer-bottom p {
+  margin: 0;
+}

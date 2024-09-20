@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapcsolat - Barkácsbolt Kft.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <ul>
+        <li><a href="fooldal.html">Főoldal</a></li>
+        <li><a href="faanyagok.html">Faanyagok</a></li>
+        <li><a href="festekek.html">Festékek</a></li>
+        <li><a href="index.html">Rólunk</a></li>
+        <li><a href="kapcsolat.html" class="active">Kapcsolat</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <h1>Lépjen kapcsolatba velünk</h1>
+    <p>Ha kérdése van, vagy további információt szeretne, kérjük, töltse ki az alábbi űrlapot, és hamarosan felvesszük Önnel a kapcsolatot.</p>
+
+    <section class="contact-form">
+      <form action="/submit" method="POST">
+        <div class="form-group">
+          <label for="name">Név:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Telefonszám:</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Üzenet:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="cta-button">Küldés</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <h3>Barkácsbolt Kft.</h3>
+      <p>Kapcsolat: +36 30 123 4567 | Email: info@barkacsbolt.hu</p>
+      <p>Cím: 1234 Budapest, Barkács utca 10.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Barkácsbolt Kft. Minden jog fenntartva.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
